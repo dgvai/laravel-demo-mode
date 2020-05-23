@@ -1,0 +1,26 @@
+{
+    "name": "dgvai/laravel-demo-mode",
+    "description": "Your Project Protector in Online Markets",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jalal Uddin",
+            "email": "dgvai@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DGvai\\DemoMode\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DGvai\\DemoMode\\DemoModeServiceProvider"
+            ]
+        }
+    }
+}
